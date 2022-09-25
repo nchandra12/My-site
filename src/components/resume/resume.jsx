@@ -3,7 +3,7 @@ import './resume.css'
 import Data from './Data'
 import Card from './Card'
 
-const resume = () => {
+const Resume = () => {
   return (
     <section className='resume container section' id='resume'>
       <h2 className='section__title'>Experience</h2>
@@ -11,7 +11,8 @@ const resume = () => {
       <div className='resume__container grid'>
         <div className='timeline grid'>
           {Data.map((val, id) => {
-            if (val.category === "education") {
+            if (val.category === "education") 
+            {
               return (
                 <Card 
                  key={id} 
@@ -20,7 +21,7 @@ const resume = () => {
                  year={val.year} 
                  desc={val.desc} 
                 />
-              )
+              );
             }
           })}
         </div>
@@ -28,7 +29,7 @@ const resume = () => {
 
         <div className='timeline grid'>
           {Data.map((val, index) => {
-            if (val.category === "experience") {
+            if (val.category === "experien") {
               return (
                 <Card 
                   key={index}
@@ -37,7 +38,7 @@ const resume = () => {
                   year={val.year}
                   desc={val.desc}
                 />
-              )
+              );
             }
           })}
         </div>
@@ -46,4 +47,4 @@ const resume = () => {
   )
 }
 
-export default resume
+export default Resume
