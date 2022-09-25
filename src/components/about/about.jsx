@@ -14,7 +14,7 @@ const about = () => {
         <div className='about__data grid'>
           <div className='about__info'>
             <p className='about_discription'>I am Nishkarsh Chandra, web developer from Kanpur, India. I have rich experience in web site design and building and customization, also I am good at Programming.</p>
-            <a href='' className='btn'>Download CV</a>
+            <a href='#' className='btn'>Download CV</a>
           </div>
 
           <div className='about__skills grid'>
