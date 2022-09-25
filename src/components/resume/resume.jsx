@@ -15,13 +15,17 @@ const Resume = () => {
             {
               return (
                 <Card 
-                 key={id} 
-                 icon={val.icon} 
-                 title={val.title} 
-                 year={val.year} 
-                 desc={val.desc} 
+                  key={id} 
+                  icon={val.icon} 
+                  title={val.title} 
+                  year={val.year} 
+                  desc={val.desc} 
                 />
               );
+            }
+
+            else {
+              return(null)
             }
           })}
         </div>
@@ -39,6 +43,10 @@ const Resume = () => {
                   desc={val.desc}
                 />
               );
+            }
+
+            else {
+              return(null)
             }
           })}
         </div>
