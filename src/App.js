@@ -1,13 +1,13 @@
 import './App.css';
-import Sidebar from './components/sidebar/sidebar';
+import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
-import About from './components/about/about';
+import About from './components/About/About';
 import Services from './components/services/services'
 import Resume from './components/resume/Resume'
-import Portfolio from './components/portfolio/portfolio'
-import Pricing from './components/pricing/Pricing'
-import Testimonials from './components/testimonials/Testimonials';
-import Blog from './components/blog/Blog';
+// import Portfolio from './components/Portfolio/Portfolio'
+// import Pricing from './components/pricing/Pricing'
+// import Testimonials from './components/testimonials/Testimonials';
+// import Blog from './components/blog/Blog';
 import Contact from './components/contact/Contact'
 
 import AnimatedCursor from "react-animated-cursor";
@@ -23,10 +23,10 @@ function App() {
         <About/>
         <Services/>
         <Resume/>
-        <Portfolio/>
-        <Pricing/>
-        <Testimonials/>
-        <Blog/>
+        {/* <Portfolio/> */}
+        {/* <Pricing/> */}
+        {/* <Testimonials/> */}
+        {/* <Blog/> */}
         <Contact/>
 
         <AnimatedCursor
@@ -37,11 +37,13 @@ function App() {
   outerScale={1.7}
   outerAlpha={0}
   outerStyle={{
-    border: '3px solid pink'
+    border: '3px solid brown'
   }}
 />
 
       </main>
+
+      
     </>
   );
 }

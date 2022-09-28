@@ -3,10 +3,10 @@ import './about.css'
 import Image from "../../assets/avatar-2.svg"
 import AboutBox from './AboutBox'
 
-const about = () => {
+const About = () => {
   return (
     <section className='about container section' id='about'>
-      <h2 className='section__title'>About Me</h2>
+      <h2 className='about__title'>About Me</h2>
 
       <div className='about__container grid'>
         <img src={Image} alt='' className='about__img'/>
@@ -61,4 +61,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

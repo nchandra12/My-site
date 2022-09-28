@@ -38,12 +38,12 @@
 /* Responsive typography  */
 @media screen and (max-width: 1024px) {
   :root {
-    --h1-font-size: 1.75rem
-    --h2-font-size: 1.25rem
-    --h3-font-size: 1rem
-    --normal-font-size: 0.938rem
-    --small-font-size: 0.813rem
-    --smaller-font-size: 0.75rem
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
   }
 }
 
@@ -137,15 +137,13 @@ img {
   padding: 0.75rem 2rem;
   line-height: 1;
   border-radius: 1.875rem;
-  box-shadow: 0 0 1px rgb(0, 0, 0 / 0%);
-  /* border: 1px solid rgb(240, 57, 48); */
+  box-shadow: 0 0 1px rgb(0, 0, 0 );
   border: 1px solid transparent;
   color: #fff;
   display: inline-block;
-  /* background-color: var(--first-color); */
-  /* background-color: rgb(234, 86, 78); */
   background-color: var(--first-color);
   font-weight: var(--font-bold);
+  margin-top:  30px; ;
 }
 
 @keyframes button-push {
@@ -158,7 +156,7 @@ img {
   }
 }
 
-.btn:hover {
+.btn:hover,a:hover {
   animation: button-push 0.3s linear 1;
 }
 

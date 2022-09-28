@@ -33,7 +33,7 @@ const Resume = () => {
 
         <div className='timeline grid'>
           {Data.map((val, index) => {
-            if (val.category === "experien") {
+            if (val.category === "experience") {
               return (
                 <Card 
                   key={index}

@@ -3,30 +3,32 @@ import React from 'react'
 const HeaderSocials = () => {
   return (
     <div className='home__socials'>
-        <a href="https://www.instagram.com/"
-         className='home__social-link' target="_blank">
+        {/* <a href="https://www.instagram.com/"
+         className='home__social-link' target="_blank" rel="noreferrer" >
         <i class="fa-brands fa-instagram"></i>
+        </a> */}
+
+        
+
+        <a href="https://github.com/nchandra12"
+         className='home__social-link' target="_blank" rel="noreferrer" >
+        <i className="fa-brands fa-github"></i>
         </a>
 
-        <a href="https://www.twitter.com/"
-         className='home__social-link' target="_blank">
-        <i class="fa-brands fa-twitter"></i>
+        <a href="https://www.linkedin.com/in/nishkarsh-chandra-132a23212/"
+         className='home__social-link' target="_blank" rel="noreferrer" >
+        <i className="fa-brands fa-linkedin"></i>
         </a>
 
-        <a href="https://www.behance.com/"
-         className='home__social-link' target="_blank">
-        <i class="fa-brands fa-behance"></i>
+        <a href="https://mail.google.com/mail/?view=cm&source=mailto&to=nishkarsh2105@gmail.com&body=Body&su=SUBJECT"
+         className='home__social-link' target="_blank" rel="noreferrer" >
+
+          <i className="fa-regular fa-envelope"></i>
         </a>
 
-        <a href="https://www.dribble.com/"
-         className='home__social-link' target="_blank">
-        <i class="fa-brands fa-dribbble"></i>
-        </a>
-
-        <a href="https://www.pinterest.com/"
-         className='home__social-link' target="_blank">
-
-          <i class="fa-brands fa-pinterest"></i>
+        <a href="https://twitter.com/crypticoderror"
+         className='home__social-link' target="_blank" rel="noreferrer" >
+        <i className="fa-brands fa-twitter"></i>
         </a>
     </div>
   )

@@ -2,7 +2,7 @@ import React from 'react'
 import './services.css'
 import Image1 from '../../assets/service-1.svg'
 import Image2 from '../../assets/service-2.svg'
-import Image3 from '../../assets/service-3.svg'
+import Image3 from '../../assets/attachment_91631681.svg'
 
 const data = [
   {
@@ -10,21 +10,21 @@ const data = [
     image: Image1,
     title: "UI/UX design",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Expertise in Web Design UI/UX Design and Front End - Development. Extensive experience in creating initial web concepts and solutions using  integrating user-centered design, technologies, and animations.",
   },
   {
     id: 2,
     image: Image2,
     title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "I Develop design and update websites and online applications using various programming languages, frame works and designing tools .",
   },
   {
     id: 3,
     image: Image3,
-    title: "Photography",
+    title: "Programming",
     description:
-      "Lorem ipsum dolor sit amet consectetuer adipiscing elit         aenean commodo ligula eget.",
+      "Innovative tech mind with 3 years of experience working as a computer programmer. Capable of working with a variety of technology and software solutions .",
   },
 ];
 
@@ -39,10 +39,10 @@ const services = () => {
         {data.map (({id, image, title, description}) => {
           return (
             <div className='services__card' key={id} >
-                <img src={image} alt="" classname="services__img"></img>
+                <img src={image} alt="" className="services__img"></img>
 
-                <h3 classname="services__title">{title}</h3>
-                <p classname="services__description">{description}</p>
+                <h3 className="services__title">{title}</h3>
+                <p className="services__description">{description}</p>
             </div>
           );
         })}
