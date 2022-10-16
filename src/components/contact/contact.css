@@ -1,6 +1,10 @@
 .contact.section {
     padding-bottom: 6.25rem;
+    /* padding-top: 6.25rem; */
 }
+/* #contact{
+    padding-top: 15.25rem;
+} */
 
 .contact__container {
     grid-template-columns: 4fr 8fr;
@@ -79,3 +83,10 @@
         grid-template-columns: 1fr;
         }
     }
+
+    .submit{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    

@@ -12,9 +12,17 @@
 }
 
 .home__img {
-    margin-bottom: 1.5rem;
-    transform: scale(1.45);
+    /* margin-bottom: 1.5rem;
+    transform: scale(1.45); */
+    /* padding: 0%; */
+    border-radius: 50%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
+
 
 .home__name {
     font-size: var(--h1-font-size);
